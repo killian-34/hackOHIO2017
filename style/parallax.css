@@ -11,10 +11,13 @@
   min-height: 100vh;
   width: 100%;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .secondary-page {
   position: relative;
+  display: none;
   width: 100%;
   min-height: 100vh;
   /*display:block;
@@ -23,6 +26,8 @@
   color: black;
   background-color: #bb0000;
   background-image:url('../images/chevron.png');
+  display: flex;
+  flex-direction: column;
 }
 
 div.filler{
@@ -34,6 +39,7 @@ div.filler{
   background-color: #fff;
   padding: 3% 5%;
   border-radius: 0px;
+  flex: 1 0 auto;
 }
 
 .center{
